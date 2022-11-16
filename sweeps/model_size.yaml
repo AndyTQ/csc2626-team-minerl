@@ -1,0 +1,16 @@
+name: model_size
+program: bc_experiment.py
+method: grid
+project: ObservationSpace
+entity: basalt
+
+metric:
+  name: test_loss
+  goal: minimize
+parameters:
+  cnn_layers:
+    values: [5,7,9,11,13,15,17]
+command:
+  - ${env}
+  - ${interpreter}
+  - ${program}

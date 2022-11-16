@@ -1,0 +1,39 @@
+name: 'curious_IQ'
+algorithm: 'curious_IQ'
+loss_function: 'iqlearn'
+loss: 'value'
+drq: true
+target_q: true  # for iqlearn q function
+expert_done_value: 1
+policy_done_value: 0
+
+alpha: 1e-1
+decay_alpha: false
+final_alpha: 1e-2
+entropy_tuning: true
+match_expert_entropy: true
+target_entropy_ratio: 0.2  # otherwise
+entropy_lr: 3e-5
+
+starting_steps: 10000
+curiosity_pretraining_steps: 15000  # training on the random data
+curiosity_only_steps: 20000
+initial_curiosity_fraction: 0.5
+curiosity_fade_out_steps: 20000
+training_steps: 50000
+
+batch_size: 256
+expert_sample_fraction: 0.5
+
+discount_factor: 0.99
+curiosity_lr: 1e-3
+q_lr: 3e-4
+iqlearn_lr: 3e-4
+policy_lr: 1e-4
+entropy_lr: 1e-3
+
+tau: .05
+
+expert_dataset: true
+online: true
+# double_q: false

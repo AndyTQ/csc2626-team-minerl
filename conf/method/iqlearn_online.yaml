@@ -1,0 +1,28 @@
+name: 'iqlearn_online'
+algorithm: 'online_imitation'  # curiosity, supervised_learning, online_imitation, sac
+loss_function: 'iqlearn'
+loss: 'value'
+drq: true
+expert_done_value: 1
+policy_done_value: 0
+
+online: true
+expert_dataset: true
+expert_sample_fraction: 0.5
+batch_size: 32
+
+
+starting_steps: 10000
+training_steps: 150000
+updates_per_step: 1
+
+learning_rate: 3e-4
+discount_factor: 0.99
+
+alpha: 1e-1
+decay_alpha: false
+final_alpha: 1e-2
+entropy_tuning: true
+match_expert_entropy: true
+target_entropy_ratio: 0.2  # otherwise
+entropy_lr: 1e-4

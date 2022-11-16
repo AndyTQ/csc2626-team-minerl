@@ -1,0 +1,14 @@
+__pycache__/
+.ipynb_checkpoints/
+.gradle/
+.vscode/
+artifacts/
+data/
+data
+eval/
+logs/
+performance/
+train/
+wandb/
+output.pstats
+*.png
