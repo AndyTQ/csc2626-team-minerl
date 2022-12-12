@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/zhecheng/Courses/Imitation-Learning-for-Robotics/assignments/Project/basalt-competition/train_submission_code.py", line 1, in <module>
+    from agents.bc import BCAgent
+  File "/home/zhecheng/Courses/Imitation-Learning-for-Robotics/assignments/Project/basalt-competition/agents/bc.py", line 1, in <module>
+    from agents.base import Agent
+  File "/home/zhecheng/Courses/Imitation-Learning-for-Robotics/assignments/Project/basalt-competition/agents/base.py", line 1, in <module>
+    from networks.base_network import Network
+  File "/home/zhecheng/Courses/Imitation-Learning-for-Robotics/assignments/Project/basalt-competition/networks/base_network.py", line 1, in <module>
+    from core.environment import create_context
+  File "/home/zhecheng/Courses/Imitation-Learning-for-Robotics/assignments/Project/basalt-competition/core/environment.py", line 1, in <module>
+    import contexts.minerl.environment as minerl_env
+  File "/home/zhecheng/Courses/Imitation-Learning-for-Robotics/assignments/Project/basalt-competition/contexts/minerl/environment.py", line 6, in <module>
+    import gym
+ModuleNotFoundError: No module named 'gym'

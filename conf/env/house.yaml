@@ -1,5 +1,0 @@
-name: MineRLBasaltBuildVillageHouse-v0
-demo: MineRLBasaltBuildVillageHouse-v0_1000
-
-min_training_episode_length: 500
-max_training_episode_length: 14400

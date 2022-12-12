@@ -1,5 +1,0 @@
-name: MineRLTreechop-v0
-demo: MineRLTreechop-v0_1000
-
-min_training_episode_length: 500
-max_training_episode_length: 3000
