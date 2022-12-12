@@ -9,8 +9,8 @@ Learning Algorithms in the MineRL Dataset**:
 |---|---|---|
 | DQfD  | MineRLTreechop-v0 | https://colab.research.google.com/drive/1AvGNQCDJvjzELTkEBFY0lH3Ry9wD8w_p?usp=sharing | 
 | DQfD  | MineRLNavigateDense-v0 | https://colab.research.google.com/drive/1sUsPTbh_c17uNvzc5aMRcrt39ATadzZj?usp=sharing | 
-| IQ-Learn  | MineRLTreechop-v0 | This repository! | 
-| IQ-Learn  | MineRLNavigateDense-v0 | This repository! | 
+| IQ-Learn  | MineRLTreechop-v0 | This repository, under the `iql` folder | 
+| IQ-Learn  | MineRLNavigateDense-v0 | This repository, under the `iql` folder | 
 | BC  | MineRLTreechop-v0 |  https://colab.research.google.com/drive/1jkdSfO99f339_lHlWaFkeYsXvKzYjSfO?usp=sharing | 
 | BC  | MineRLNavigateDense-v0 | https://colab.research.google.com/drive/1K9GIpZkydqZdp-ycW4xE-w68txv5nBDl?usp=sharing | 
 | GAIL (attempted)  | MineRLTreechop-v0 | https://colab.research.google.com/drive/1QwY1bWtemOAuGfAHruH85ylRrT4-VNns?usp=sharing | 
