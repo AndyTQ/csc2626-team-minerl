@@ -11,4 +11,4 @@ Learning Algorithms in the MineRL Dataset**:
 | DQfD  | MineRLNavigateDense-v0 (MineRL 0.4.4) | https://colab.research.google.com/drive/1Kw4e3vPtUvdquCAabwzFhun58vfIoSc0#scrollTo=D4tPZBbfZweT  | |
 | IQ-Learn  | MineRLTreechop-v0 (MineRL 0.4.4) |  https://colab.research.google.com/drive/1tHbHzAV8aFe8hNT5DKM3irE5wTedaZY8 | |
 | IQ-Learn  | MineRLNavigateDense-v0 (MineRL 0.4.4) | https://colab.research.google.com/drive/1Kw4e3vPtUvdquCAabwzFhun58vfIoSc0#scrollTo=D4tPZBbfZweT  | |
-| GAIL (Attempted)  | MineRLTreechop-v0 (MineRL 0.4.4) | https://colab.research.google.com/drive/1Kw4e3vPtUvdquCAabwzFhun58vfIoSc0#scrollTo=D4tPZBbfZweT  | |
+| GAIL (Attempted)  | MineRLTreechop-v0 (MineRL 0.4.4) | https://colab.research.google.com/drive/1Kw4e3vPtUvdquCAabwzFhun58vfIoSc0#scrollTo=D4tPZBbfZweT  | | 
